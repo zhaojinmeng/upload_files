@@ -88,9 +88,13 @@ npm run build --report
 ##### 参考文档：
 
 1.vue-simple-uploader组件：https://github.com/simple-uploader/vue-uploader/blob/master/README_zh-CN.md
+
 2.Uploader组件：https://github.com/simple-uploader/Uploader/blob/develop/README_zh-CN.md#%E9%85%8D%E7%BD%AE
+
 3.博客参考：https://www.helloweba.net/javascript/632.html
+
 4.前端来源：https://github.com/lrfbeyond/fast-uploader
+若本项目侵权，请联系我删除，谢谢！
 
 
 
