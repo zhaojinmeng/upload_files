@@ -94,6 +94,7 @@ npm run build --report
 3.博客参考：https://www.helloweba.net/javascript/632.html
 
 4.前端来源：https://github.com/lrfbeyond/fast-uploader
+
 若本项目侵权，请联系我删除，谢谢！
 
 
