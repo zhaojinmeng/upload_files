@@ -1,0 +1,7 @@
+Django==3.2.9
+django-auto-prefetching==0.1.10
+django-cors-headers==3.10.1
+django-redis==5.1.0
+djangorestframework==3.11.1
+PyMySQL==1.0.2
+redis==3.5.3
