@@ -17,7 +17,7 @@ class UploadInfo(models.Model):
         verbose_name = "上传文件信息"
 
     @classmethod
-    def get_object(self, md5):
+    def get_object(cls, md5):
         data = UploadInfo.objects.filter(md5=md5).first()
         return data
 

@@ -19,15 +19,15 @@ def make_dir(path):
 
 def get_chunk_info(username, identifier):
     info = {}
-    make_dir(settings.MEDIA_ROOT)  # /Users/windyzhao/windy_projects/django_project/upload_file_demo/static/ 存放文件根路径
+    make_dir(settings.MEDIA_ROOT)  # 存放文件根路径
     path = make_user_path(username, settings.MEDIA_ROOT)
-    make_dir(path)  # /Users/windyzhao/windy_projects/django_project/upload_file_demo/static/admin_1/ 具体用户的文件路径
+    make_dir(path)  # 具体用户的文件路径
     md5_path = os.path.join(path, identifier)
-    make_dir(md5_path)  # /static/admin_1/b6c5bec42f652b0e7b08ab03bb45c7f8/   当前上传文件的路径
+    make_dir(md5_path)  # 当前上传文件的路径
     file_path = os.path.join(md5_path, "files")
-    make_dir(file_path)  # /static/admin_1/b6c5bec42f652b0e7b08ab03bb45c7f8/files/  合并完整的存放文件路径
+    make_dir(file_path)  # 合并完整的存放文件路径
     chunk_path = os.path.join(md5_path, "chunk")
-    make_dir(chunk_path)  # /static/admin_1/b6c5bec42f652b0e7b08ab03bb45c7f8/chunk/  分片文件存放路径
+    make_dir(chunk_path)  # 分片文件存放路径
 
     info['file_path'] = file_path
     info['chunk_path'] = chunk_path
