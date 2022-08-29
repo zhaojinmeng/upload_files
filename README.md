@@ -79,10 +79,10 @@ npm run build --report
 
 #### 前端页面体验路径
 ```js
-breakpoint
-md5
-skip
-chunk
+/breakpoint
+/md5
+/skip
+/chunk
 ```
 每个页面的功能不一样
 
