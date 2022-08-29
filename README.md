@@ -77,6 +77,15 @@ npm run build --report
 # 4.python manage.py runserver
 ```
 
+#### 前端页面体验路径
+```js
+breakpoint
+md5
+skip
+chunk
+```
+每个页面的功能不一样
+
 ##### 文件存储路径：
 
 `upload_file_demo/static'`下。
